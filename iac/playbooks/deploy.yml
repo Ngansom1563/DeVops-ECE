@@ -1,0 +1,34 @@
+---
+- name: Deploy User API
+  hosts: all
+  become: true
+  tasks:
+    - name: Install dependencies
+      apt:
+        name: 
+          - nodejs
+          - npm
+          - redis-server
+        state: present
+        update_cache: true
+
+    - name: Start Redis
+      service:
+        name: redis-server
+        state: started
+        enabled: true
+
+    - name: Copy application files
+      copy:
+        src: ../../userapi/
+        dest: /opt/userapi/
+
+    - name: Install npm dependencies
+      npm:
+        path: /opt/userapi
+        state: present
+
+    - name: Start application
+      shell: npm start
+      args:
+        chdir: /opt/userapi
