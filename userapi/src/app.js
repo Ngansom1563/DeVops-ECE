@@ -1,7 +1,7 @@
-const express = require('express');
-const Redis = require('ioredis');
-const swaggerUi = require('swagger-ui-express');
-const swaggerJsdoc = require('swagger-jsdoc');
+import express from 'express';
+import Redis from 'ioredis';
+import swaggerUi from 'swagger-ui-express';
+import swaggerJsdoc from 'swagger-jsdoc';
 
 const app = express();
 app.use(express.json());
@@ -74,4 +74,4 @@ app.delete('/users/:id', async (req, res) => {
   res.status(204).send();
 });
 
-module.exports = app;
+export default app;
