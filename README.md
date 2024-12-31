@@ -1,7 +1,7 @@
-# Project Name
+# DeVops Project 
 
 ## Overview
-This project focuses on **DevOps** practices, implementing a **web application** with continuous integration and deployment (CI/CD), containerization, orchestration, and infrastructure automation. The project includes Docker, Kubernetes, Istio, Ansible, Vagrant, and other tools. The application was built using **Node.js**, **Next.js**, and integrates with platforms such as **Heroku** and **Docker Hub**.
+This project focuses on **DevOps** practices, implementing a **web application** with continuous integration and deployment (CI/CD), containerization, orchestration, and infrastructure automation. The project includes Docker, Kubernetes, Istio, Ansible, Vagrant, and other tools. The application was built using **Node.js**, **Next.js**, and integrates with platforms such as **Docker Hub**.
 
 ## Work Performed
 
@@ -16,20 +16,14 @@ This project focuses on **DevOps** practices, implementing a **web application**
 ### Bonus Tasks
 - **Scaling**: Implemented auto-scaling with **Kubernetes** based on CPU and memory utilization.
 - **Load Balancer**: Configured a **Kubernetes Ingress Controller** with a load balancer.
-- **Logging and Monitoring**: Integrated **Prometheus** and **Grafana** for monitoring the health of the application.
-- **Deployment to Heroku**: Configured automatic deployment to **Heroku** for live application testing.
 - **Docker Compose**: Created a **Docker Compose** setup for local development.
 
 ## Screenshots
 
 To give you a visual reference for this project, you can view some screenshots below:
 
-- [Web Application](screenshots/web_application.png)
-- [Kubernetes Resources](screenshots/k8s_resources.png)
-- [Docker Compose Setup](screenshots/docker_compose.png)
-- [VMs](screenshots/vms.png)
 
-These screenshots provide a glimpse into the application running on different platforms and environments.
+
 
 ## Installation Instructions
 
@@ -53,5 +47,5 @@ To get started with this project, follow the instructions below:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/Ngansom1563/DeVops-ECE.git
+cd userapi
