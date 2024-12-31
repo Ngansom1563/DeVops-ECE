@@ -20,17 +20,29 @@ This project focuses on **DevOps** practices, implementing a **web application**
 
 ## Screenshots
 - Test local
-  <img width="611" alt="image" src="https://github.com/user-attachments/assets/c371012e-c731-43c5-b9e5-b68adde43692" />
+  
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/c371012e-c731-43c5-b9e5-b68adde43692" />
+
 - Test avec Docker
- <img width="611" alt="image" src="https://github.com/user-attachments/assets/d4fe910a-4c19-4b2e-b01f-4871dc08859c" />
+  
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/d4fe910a-4c19-4b2e-b01f-4871dc08859c" />
+
 - Test de deploiement
-  <img width="611" alt="image" src="https://github.com/user-attachments/assets/b55f9c4d-1e6b-4bd8-9f0d-108f40b5c5d3" />
+- 
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/b55f9c4d-1e6b-4bd8-9f0d-108f40b5c5d3" />
+
 -Verification des pods et services
+
 <img width="611" alt="image" src="https://github.com/user-attachments/assets/6f7b832d-4074-433d-9c88-f02daccd7c48" />
+
 <img width="611" alt="image" src="https://github.com/user-attachments/assets/a9b8fba5-1423-4ea2-95f3-0b931b089158" />
+
 - Utiliser minikube pour accéder à l’application
+  
 <img width="611" alt="image" src="https://github.com/user-attachments/assets/46f9b853-9119-42d6-a8b3-1b6c87139192" />
+
 - Test d'infrastructure
+  
 <img width="596" alt="image" src="https://github.com/user-attachments/assets/8026e03e-3a7c-44b7-bf55-2b4cdc203aeb" />
 
 ## Installation Instructions
