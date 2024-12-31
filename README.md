@@ -28,7 +28,7 @@ This project focuses on **DevOps** practices, implementing a **web application**
 <img width="611" alt="image" src="https://github.com/user-attachments/assets/d4fe910a-4c19-4b2e-b01f-4871dc08859c" />
 
 - Test de deploiement
-- 
+ 
 <img width="611" alt="image" src="https://github.com/user-attachments/assets/b55f9c4d-1e6b-4bd8-9f0d-108f40b5c5d3" />
 
 -Verification des pods et services
