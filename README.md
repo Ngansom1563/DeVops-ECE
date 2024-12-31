@@ -72,8 +72,8 @@ npm test
 ## - LANTIGUA JORGE Charles 
 
 ### Links 
-- GitHub Repository
+- GitHub Repository https://github.com/Ngansom1563/DeVops-ECE.git
 
 
-- Docker Hub 
+- Docker Hub https://hub.docker.com/u/ngansom
 
