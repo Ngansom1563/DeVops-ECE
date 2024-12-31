@@ -1,6 +1,6 @@
-const request = require('supertest');
-const { expect } = require('chai');
-const app = require('../src/app');
+import { expect } from 'chai';
+import request from 'supertest';
+import app from '../src/app.js';
 
 describe('User API', () => {
   it('should return health status', async () => {
