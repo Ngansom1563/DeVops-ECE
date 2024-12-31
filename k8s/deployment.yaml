@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: userapi
-        image: userapi:latest
+        image: ngansom/userapi:latest
         ports:
         - containerPort: 3000
         env:
